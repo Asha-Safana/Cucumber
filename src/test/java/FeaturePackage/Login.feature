@@ -16,7 +16,7 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@tag
+@Login
 Feature: Book Login page
   Scenario: User is able to login successfully 
     Given user launches Book application

@@ -20,7 +20,7 @@ public BookLoginstepDefinition ( Testcontextsetup context)
 	
 	@Then("Login Link should appear")
 	public void login_link_should_appear() {
-boolean value = context.driver.getCurrentUrl().contains("asha");
+boolean value = context.driver.getCurrentUrl().contains("myaccount");
         
         // Assertion
 Assert.assertTrue(value, "Custom failure message");
